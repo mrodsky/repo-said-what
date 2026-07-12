@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Project data
+data/DiscordMessages/
+data/*.db
+
+# Logs
+*.log

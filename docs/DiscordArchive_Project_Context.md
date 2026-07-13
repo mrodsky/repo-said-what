@@ -90,7 +90,7 @@ Current table:
 messages
 --------
 id TEXT PRIMARY KEY
-timestamp TEXT
+timestamp DATETIME
 content TEXT
 attachments TEXT
 ```

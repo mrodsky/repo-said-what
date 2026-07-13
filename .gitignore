@@ -239,3 +239,4 @@ data/*.db
 
 # Logs
 *.log
+data/query.sh

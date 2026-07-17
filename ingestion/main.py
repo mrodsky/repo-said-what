@@ -19,8 +19,10 @@ def main():
 #############################################################################################
 
 def ingest_messages():
-    base_path = Path(r"E:\\Projects\\repo-said-what\\data\\DiscordMessages")
-    db_file_path = Path(r"E:\\Projects\\repo-said-what\\data\\discord.db")
+    root_path = Path(__file__).resolve().parent.parent
+    
+    base_path = root_path / "data" / "DiscordMessages"
+    db_file_path = root_path / "data" / "discord.db"
 
     #now for each message file, load the messages, parse them, and save them to the database
     total_cnt, commit_cnt = 0, 0
